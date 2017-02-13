@@ -1,6 +1,6 @@
 {
   "name": "ng-tinymce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TinyMCE in an Angular 2 Directive for smoother configuration and change detection using ControlValueAccessor interface",
   "main": "dist/bundles/ng-tinymce.umd.js",
   "scripts": {
