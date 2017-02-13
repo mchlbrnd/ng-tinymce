@@ -1,10 +1,12 @@
 export default {
   entry: 'dist/index.js',
   dest: 'dist/bundles/ng-tinymce.umd.js',
-  sourceMap: false,
+  sourceMap: true,
   format: 'umd',
   moduleName: 'ng-tinymce',
   globals: {
     '@angular/core': 'ng.core',
+    '@angular/common': 'ng.core',
+    '@angular/forms': 'ng.forms'
   }
 }
