@@ -123,8 +123,8 @@ var NgTinymceModule = (function () {
 }());
 
 exports.NgTinymceModule = NgTinymceModule;
-exports.TinymceEditorDirective = TinymceEditorDirective;
 exports.TinymceEditorSettingsService = TinymceEditorSettingsService;
+exports.TinymceEditorDirective = TinymceEditorDirective;
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
