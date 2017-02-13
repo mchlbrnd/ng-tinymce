@@ -1,6 +1,4 @@
 import { Injectable } from '@angular/core';
-import 'tinymce/plugins/link/plugin.js';
-import 'tinymce/plugins/paste/plugin.js';
 export var TinymceEditorSettingsService = (function () {
     function TinymceEditorSettingsService() {
         this.skin_url = '/assets/tinymce/skins/lightgray';
