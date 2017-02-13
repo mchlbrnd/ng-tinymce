@@ -28,17 +28,17 @@
   },
   "homepage": "https://github.com/mchlbrnd/ng-tinymce#readme",
   "dependencies": {
-    "@angular/common": "^2.4.0",
-    "@angular/core": "^2.4.0",
-    "@angular/forms": "^2.4.0",
+    "@angular/common": "^2.0.0",
+    "@angular/core": "^2.0.0",
+    "@angular/forms": "^2.0.0",
     "reflect-metadata": "^0.1.8",
-    "rxjs": "^5.0.1",
+    "rxjs": "^5.0.0",
     "tinymce": "^4.5.3",
     "zone.js": "^0.7.2"
   },
   "devDependencies": {
-    "@angular/compiler": "^2.4.0",
-    "@angular/compiler-cli": "^2.4.0",
+    "@angular/compiler": "^2.0.0",
+    "@angular/compiler-cli": "^2.0.0",
     "rimraf": "^2.5.4",
     "rollup": "^0.37.0",
     "typescript": "~2.0.10",
