@@ -1,8 +1,8 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('tinymce/tinymce.js'), require('tinymce/themes/modern/theme.js'), require('tinymce/themes/inlite/theme.js'), require('@angular/core'), require('@angular/common'), require('@angular/core/src/metadata/directives'), require('@angular/forms')) :
-    typeof define === 'function' && define.amd ? define(['exports', 'tinymce/tinymce.js', 'tinymce/themes/modern/theme.js', 'tinymce/themes/inlite/theme.js', '@angular/core', '@angular/common', '@angular/core/src/metadata/directives', '@angular/forms'], factory) :
-    (factory((global['ng-tinymce'] = global['ng-tinymce'] || {}),global.tinymce_tinymce_js,global.tinymce_themes_modern_theme_js,global.tinymce_themes_inlite_theme_js,global.ng.core,global._angular_common,global._angular_core_src_metadata_directives,global._angular_forms));
-}(this, (function (exports,tinymce_tinymce_js,tinymce_themes_modern_theme_js,tinymce_themes_inlite_theme_js,_angular_core,_angular_common,_angular_core_src_metadata_directives,_angular_forms) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('@angular/core/src/metadata/directives'), require('@angular/forms')) :
+    typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common', '@angular/core/src/metadata/directives', '@angular/forms'], factory) :
+    (factory((global['ng-tinymce'] = global['ng-tinymce'] || {}),global.ng.core,global._angular_common,global._angular_core_src_metadata_directives,global._angular_forms));
+}(this, (function (exports,_angular_core,_angular_common,_angular_core_src_metadata_directives,_angular_forms) { 'use strict';
 
 var TinymceEditorSettingsService = (function () {
     function TinymceEditorSettingsService() {
