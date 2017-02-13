@@ -12,8 +12,7 @@
       "@angular/core": ["node_modules/@angular/core"],
       "@angular/common": ["node_modules/@angular/common"],
       "@angular/forms": ["node_modules/@angular/forms"],
-      "rxjs/*": ["node_modules/rxjs/*"],
-      "tinymce/*": ["node_modules/tinymce/*"]
+      "rxjs/*": ["node_modules/rxjs/*"]
     },
     "rootDir": ".",
     "outDir": "dist",
@@ -29,9 +28,12 @@
   "include": [
     "node_modules/tinymce/tinymce.js",
     "node_modules/tinymce/themes/modern/theme.js",
-    "node_modules/tinymce/themes/inlinte/theme.js",
+    "node_modules/tinymce/themes/inlite/theme.js",
     "node_modules/tinymce/plugins/link/plugin.js",
     "node_modules/tinymce/plugins/paste/plugin.js"
+  ],
+  "exclude": [
+    "node_modules"
   ],
   "files": [
     "index.ts",
