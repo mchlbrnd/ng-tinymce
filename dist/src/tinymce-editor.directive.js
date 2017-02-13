@@ -2,6 +2,9 @@ import { Directive, ElementRef, forwardRef, ChangeDetectorRef, EventEmitter, Out
 import { Input } from '@angular/core/src/metadata/directives';
 import { TinymceEditorSettingsService } from './tinymce-editor-settings.service';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
+import 'tinymce/tinymce.js';
+import 'tinymce/themes/modern/theme.js';
+import 'tinymce/themes/inlite/theme.js';
 export var TinymceEditorDirective = (function () {
     function TinymceEditorDirective(_elementRef, _changeDetectorRef, _providedSettings) {
         var _this = this;
