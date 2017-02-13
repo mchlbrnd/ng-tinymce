@@ -1,0 +1,44 @@
+{
+  "name": "ng-tinymce",
+  "version": "1.0.0",
+  "description": "TinyMCE in an Angular 2 Directive for smoother configuration and change detection using ControlValueAccessor interface",
+  "main": "index.js",
+  "scripts": {
+    "cleanup": "rimraf dist/bundles dist/src dist/index.d.ts dist/index.js dist/index.js.map dist/LICENCE dist/README.md",
+    "bundling": "rollup -c",
+    "minify": "uglifyjs dist/bundles/ng2-fone.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/ng2-fone.umd.min.js",
+    "build": "npm run cleanup && ngc && npm run bundling && npm run minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchlbrnd/ng-tinymce.git"
+  },
+  "keywords": [
+    "tinymce",
+    "angular2",
+    "angular",
+    "ng2",
+    "editor",
+    "wsiwyg"
+  ],
+  "author": "Michael Wolbert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mchlbrnd/ng-tinymce/issues"
+  },
+  "homepage": "https://github.com/mchlbrnd/ng-tinymce#readme",
+  "dependencies": {
+    "@angular/core": "^2.4.0",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.1",
+    "zone.js": "^0.7.2"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^2.4.0",
+    "@angular/compiler-cli": "^2.4.0",
+    "rimraf": "^2.5.4",
+    "rollup": "^0.37.0",
+    "typescript": "~2.0.10",
+    "uglify-js": "^2.7.5"
+  }
+}
