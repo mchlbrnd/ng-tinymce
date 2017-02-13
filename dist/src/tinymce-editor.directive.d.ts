@@ -1,9 +1,6 @@
 import { ElementRef, ChangeDetectorRef } from '@angular/core';
 import { TinymceEditorSettingsService } from './tinymce-editor-settings.service';
 import { ControlValueAccessor } from '@angular/forms';
-import 'tinymce/tinymce.js';
-import 'tinymce/themes/modern/theme.js';
-import 'tinymce/themes/inlite/theme.js';
 export declare class TinymceEditorDirective implements ControlValueAccessor {
     private _elementRef;
     private _changeDetectorRef;

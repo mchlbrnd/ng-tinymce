@@ -27,7 +27,8 @@
     ]
   },
   "files": [
-    "index.ts"
+    "index.ts",
+    "typings/tinymce.d.ts"
   ],
   "angularCompilerOptions": {
     "strictMetadataEmit": true
