@@ -2,7 +2,7 @@
   "name": "ng-tinymce",
   "version": "1.0.0",
   "description": "TinyMCE in an Angular 2 Directive for smoother configuration and change detection using ControlValueAccessor interface",
-  "main": "index.js",
+  "main": "dist/bundles/ng-tinymce.umd.js",
   "scripts": {
     "cleanup": "rimraf dist/bundles dist/src dist/index.d.ts dist/index.js dist/index.js.map dist/LICENCE dist/README.md",
     "bundling": "rollup -c",
