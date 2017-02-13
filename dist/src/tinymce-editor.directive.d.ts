@@ -1,3 +1,4 @@
+/// <reference path="../../typings/custom/tinymce.d.ts" />
 import { ElementRef, ChangeDetectorRef } from '@angular/core';
 import { TinymceEditorSettingsService } from './tinymce-editor-settings.service';
 import { ControlValueAccessor } from '@angular/forms';

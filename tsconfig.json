@@ -27,11 +27,11 @@
     ]
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist"
   ],
   "files": [
-    "index.ts",
-    "typings/tinymce.d.ts"
+    "index.ts"
   ],
   "angularCompilerOptions": {
     "strictMetadataEmit": true

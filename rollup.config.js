@@ -6,7 +6,7 @@ export default {
   moduleName: 'ng-tinymce',
   globals: {
     '@angular/core': 'ng.core',
-    '@angular/common': 'ng.core',
+    '@angular/common': 'ng.common',
     '@angular/forms': 'ng.forms'
   }
 }

@@ -1,3 +1,4 @@
+///<reference path="../typings/custom/tinymce.d.ts" />
 import { Directive, ElementRef, forwardRef, ChangeDetectorRef, EventEmitter, Output } from '@angular/core';
 import { Input } from '@angular/core/src/metadata/directives';
 import { TinymceEditorSettingsService } from './tinymce-editor-settings.service';
