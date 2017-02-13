@@ -3,6 +3,10 @@ import { Input } from '@angular/core/src/metadata/directives';
 import { TinymceEditorSettingsService } from './tinymce-editor-settings.service';
 import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
 
+import 'tinymce/tinymce.js';
+import 'tinymce/themes/modern/theme.js';
+import 'tinymce/themes/inlite/theme.js';
+
 declare var tinymce: any;
 
 @Directive({

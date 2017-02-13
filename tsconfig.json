@@ -26,11 +26,6 @@
   "files": [
     "index.ts"
   ],
-  "include": [
-    "node_modules/tinymce/tinymce.js",
-    "node_modules/tinymce/themes/modern/theme.js",
-    "node_modules/tinymce/themes/inlite/theme.js"
-  ],
   "angularCompilerOptions": {
     "strictMetadataEmit": true
   }

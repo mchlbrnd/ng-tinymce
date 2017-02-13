@@ -1,3 +1,9 @@
-export { NgTinymceModule } from './ng-tinymce.module';
-export { TinymceEditorDirective } from './tinymce-editor.directive';
-export { TinymceEditorSettingsService } from './tinymce-editor-settings.service';
+import { NgTinymceModule } from './ng-tinymce.module';
+import { TinymceEditorDirective } from './tinymce-editor.directive';
+import { TinymceEditorSettingsService } from './tinymce-editor-settings.service';
+
+export {
+  NgTinymceModule,
+  TinymceEditorDirective,
+  TinymceEditorSettingsService
+}
