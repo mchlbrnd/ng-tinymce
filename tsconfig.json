@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
-    "allowJs": true,
     "baseUrl": ".",
-    "declaration": false,
+    "declaration": true,
     "stripInternal": true,
     "experimentalDecorators": true,
     "strictNullChecks": true,
@@ -26,13 +25,6 @@
       "dom"
     ]
   },
-  "include": [
-    "node_modules/tinymce/tinymce.js",
-    "node_modules/tinymce/themes/modern/theme.js",
-    "node_modules/tinymce/themes/inlite/theme.js",
-    "node_modules/tinymce/plugins/link/plugin.js",
-    "node_modules/tinymce/plugins/paste/plugin.js"
-  ],
   "exclude": [
     "node_modules"
   ],

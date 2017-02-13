@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('@angular/core/src/metadata/directives'), require('@angular/forms')) :
     typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common', '@angular/core/src/metadata/directives', '@angular/forms'], factory) :
-    (factory((global['ng-tinymce'] = global['ng-tinymce'] || {}),global.ng.core,global._angular_common,global._angular_core_src_metadata_directives,global._angular_forms));
+    (factory((global['ng-tinymce'] = global['ng-tinymce'] || {}),global.ng.core,global.ng.core,global._angular_core_src_metadata_directives,global.ng.forms));
 }(this, (function (exports,_angular_core,_angular_common,_angular_core_src_metadata_directives,_angular_forms) { 'use strict';
 
 var TinymceEditorSettingsService = (function () {
@@ -129,3 +129,4 @@ exports.TinymceEditorDirective = TinymceEditorDirective;
 Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
+//# sourceMappingURL=ng-tinymce.umd.js.map
