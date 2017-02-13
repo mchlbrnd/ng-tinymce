@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "baseUrl": ".",
-    "declaration": true,
+    "declaration": false,
     "stripInternal": true,
     "experimentalDecorators": true,
     "strictNullChecks": true,
